@@ -50,7 +50,7 @@
        </div>
   </div>
 
-               <div id="third-section" data-start="opacity:0; top:0px;" data-60-start="opacity:1; top:-50px;">
+               <div id="third-section" data-start="opacity:0; top:0px;" data-60-start="opacity:1; top:-30px;">
 
            <h3 data-start="opacity:0; top:0px;" data-230-start="opacity:1" > 16th September 2015: First Date</h3>
              <img  data-start="opacity:0; top:0px; transform:scale(.5)" data-230-start="opacity:1; transform:scale(1)"  src="img/wedding_32a.png" class="img-responsive center-block">
@@ -64,7 +64,7 @@
              <img  data-start="opacity:0; top:0px; transform:scale(.5)" data-800-start="opacity:1; transform:scale(1)"  src="img/wedding_39a.png" class="img-responsive center-block">
 
                 <h3 data-start="opacity:0; top:0px;" data-800-start="opacity:1" > 16th September 2015: First Date</h3>
-             <img  data-880="transform:translate(0%,0%);" data-900p="transform:translate(0%,1760%)"src="img/couple.jpg" class="img-responsive center-block">
+             <img  data-880="transform:translate(0%,0%);" data-900p="transform:translate(0%,1760%)"src="img/couple.jpg" class="img-responsive center-block" id="couple1">
 </div>
 
 
@@ -72,7 +72,15 @@
 
        
 
-      <div class="container" id ="fourth-section"> <img src="img/frame.png"class="center-block img-responsive"></div>
+      <div class="container" id ="fourth-section"> 
+        <div class="row">
+          <div class="col-md-2"></div>
+            <div class="col-md-8"><img src="img/frame.png"class="center-block img-responsive"></div>
+             <div class="col-md-2"><h3 data-100p="transform:translate(0%,0%);" data-800p="transform:translate(-500%,0%);"> And now we'd like you to come and celebrate with us</h3></div>
+
+
+      </div>
+    </div>
 
 
     <!-- jQuery Version 1.11.1 -->
@@ -90,7 +98,7 @@
 
 <script type="text/javascript"> 
 var s = skrollr.init({
-   // forceHeight: false,
+    forceHeight: false,
     
      render: function(data) {
     //Log the current scroll position.

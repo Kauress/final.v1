@@ -36,7 +36,7 @@ h1{
 
 #third-section{
   background: url('https://d3w3yyufttgvi.cloudfront.net/wp-content/themes/tink/images/dot.repeat-y.svg') repeat-y 50% 0; 
-   height: 60%;
+   height: 100%;
    position:  relative;
 
 }
@@ -45,5 +45,9 @@ h3{
 }
 
 #fourth-section{
-  margin-top: 600px;
+  margin-top: 200px;
+  z-index: -1;
+}
+#couple1{
+  z-index: 1;
 }
