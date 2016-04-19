@@ -1,0 +1,49 @@
+#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+div { -webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-perspective: 1000; }
+
+body {overflow:auto; height: 100% !important;}
+
+
+#info {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+  z-index: 9999;
+}
+
+#first-section{
+  background: url('../img/pattern.jpg');
+	width: 100%;
+	height: 55%;
+	
+}
+
+h1{
+	text-align: center;
+}
+
+#second-section{
+	position: relative;
+}
+
+#third-section{
+  background: url('https://d3w3yyufttgvi.cloudfront.net/wp-content/themes/tink/images/dot.repeat-y.svg') repeat-y 50% 0; 
+   height: 60%;
+   position:  relative;
+
+}
+h3{
+  text-align: center;
+}
+
+#fourth-section{
+  margin-top: 600px;
+}
