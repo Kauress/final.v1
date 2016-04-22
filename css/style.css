@@ -6,7 +6,7 @@
 
 div { -webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-perspective: 1000; }
 
-body {overflow:auto; height: 100% !important;}
+ body {overflow:auto; height: 100% !important; background: url('../img/gold2.jpg')  ;}
 
 
 #info {
@@ -20,14 +20,15 @@ body {overflow:auto; height: 100% !important;}
 }
 
 #first-section{
-  background: url('../img/pattern.jpg');
+  background: url('../img/coupling.jpg')center no-repeat;
 	width: 100%;
-	height: 55%;
+	height: 60%;
 	
 }
 
 h1{
 	text-align: center;
+  line-height: 1em;
 }
 
 #second-section{
@@ -45,9 +46,27 @@ h3{
 }
 
 #fourth-section{
-  margin-top: 200px;
+  margin-top: 400px;
   z-index: -1;
+  width: 100%;
+  position: relative;
 }
 #couple1{
   z-index: 1;
+}
+
+p{
+  font-size: 30px;
+}
+
+#fifth-section{
+
+position: relative;
+height: 50%;
+}
+
+#sixth-section{
+  position:relative;
+  margin-top: 200px;
+     width: 100%;
 }
