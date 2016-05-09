@@ -86,3 +86,15 @@ position: relative;
   margin-top: -700px;
   z-index: 1;
 }
+
+
+@media screen and (max-width: 900px) {
+ #sixth-section{
+  position:relative;
+  z-index: -1;
+  margin-top: 200px;
+}
+ .6th{
+  width: 100%;
+ }
+}
