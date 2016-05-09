@@ -4,9 +4,21 @@
     height: 100%;
 }
 
-div { -webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-perspective: 1000; }
 
- body {overflow:auto; height: 100% !important; background: url('../img/paper2.png')  repeat-y 100% 200% ;   font-family: 'Dancing Script', cursive;   border-image-source: }
+ body {
+  overflow:auto; 
+  height: 100% !important; 
+  font-family: 'Dancing Script', cursive; ;
+}
+
+#border{
+ border: 50px solid transparent;
+ width: 100%;
+
+  border-image-source: url(../img/paper.jpg);
+  border-image-slice:  90;
+  border-image-repeat: repeat;
+}
 
 
 #info {
@@ -44,6 +56,7 @@ h1{
 }
 h3{
   text-align: center;
+  font-size: 30px;
 }
 
 #fourth-section{
@@ -70,6 +83,6 @@ position: relative;
   margin-top: 200px;
 }
 #coupleb{
-  margin-top: -600px;
+  margin-top: -700px;
   z-index: 1;
 }
