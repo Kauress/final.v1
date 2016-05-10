@@ -91,9 +91,11 @@ position: relative;
 @media only screen and (max-width: 980px){
     .fifth-section{
         transform: none !important;
+        display: none !important;
     }
 
       .sixth-section-section{
         transform: none !important;
+        margin-top: -400px;
     }
 }
