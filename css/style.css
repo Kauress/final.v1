@@ -94,7 +94,12 @@ position: relative;
         display: none !important;
     }
 
+     #sixth-section{
+       width: 100%;
+    
+     }
       .map{
-        margin-top: -400px;       
+        margin-top: -400px;  
+        
     }
 }
