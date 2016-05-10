@@ -124,6 +124,10 @@ var s = skrollr.init({
     //Log the current scroll position.
     $('#info').text(data.curTop);
   }
+var s = skrollr.init();
+if (s.isMobile()) {
+    s.destroy();
+}
 
 
 }); </script>
