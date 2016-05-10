@@ -94,8 +94,7 @@ position: relative;
         display: none !important;
     }
 
-      .sixth-section-section{
-        transform: none !important;
-        margin-top: -400px;
+      .sixth-section{
+        margin-top: -900px;
     }
 }
