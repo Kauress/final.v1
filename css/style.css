@@ -33,7 +33,9 @@
 
 #first-section{
 	width: 100%;
-	height: 30%;
+	height:70%;
+  background: url('../img/weddingday.png')center;
+  background-size: cover;
 	
 }
 
