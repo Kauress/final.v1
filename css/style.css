@@ -88,8 +88,13 @@ position: relative;
 }
 
 
- @media screen and (max-width: 980px) {
+ @media screen and (max-width: 768px) {
 
+.map{
+  margin-top: -500px;
+}
 
-
+#fifth-section{
+  display: none;
+}
 }  
