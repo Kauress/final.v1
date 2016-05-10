@@ -96,12 +96,10 @@ position: relative;
         display: none !important;
     }
 
-     #sixth-section{
-       width: 100%;
-    
-     }
+
       .map{
         margin-top: -500px;  
+        
 
     }
 }
