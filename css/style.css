@@ -102,10 +102,5 @@ position: relative;
 
     @media(max-width:767px){
 
-.img-responsive >{
-    height:540px;
-    width: 100%;
-
-    }
 }
 }
