@@ -33,7 +33,7 @@
 
 #first-section{
   width: 100%;
-  height: 30%;
+  border: 1px solid black;
 }
 
 .1stimg{
@@ -104,9 +104,6 @@ position: relative;
 
     }
 
- .1stimg{
-  width:140%;
-  height: auto;
- }
+
 
 }
