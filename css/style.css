@@ -99,14 +99,14 @@ position: relative;
         transform: none !important;
         display: none !important;
     }
-
-
       .map{
         margin-top: -500px;        
 
     }
 
-    @media(max-width:767px){
+ .1stimg{
+  width:140%;
+  height: auto;
+ }
 
-}
 }
