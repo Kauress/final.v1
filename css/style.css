@@ -33,13 +33,10 @@
 
 #first-section{
   width: 100%;
-  border: 1px solid black;
-}
-
-.1stimg{
-  max-width: 100%;
   height: auto;
 }
+
+
 h1{
 	text-align: center;
   line-height: 1em;
