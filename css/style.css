@@ -15,7 +15,7 @@
  border: 50px solid transparent;
  width: 100%;
 
-  border-image-source: url(../img/paper.jpg);
+border-image-source: url(../img/paper.jpg);
   border-image-slice:  90;
   border-image-repeat: repeat;
 }
@@ -33,7 +33,7 @@
 
 #first-section{
   width: auto;
-    height: 550px;
+    height: 600px;
     background: url('../img/weddingday.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
