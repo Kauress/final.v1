@@ -33,12 +33,12 @@ border-image-source: url(../img/paper.jpg);
 
 #first-section{
   width: auto;
-    height: 600px;
-    background: url('../img/weddingday.png') center center no-repeat scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    height: 800px;
+    background: url('../img/weddingday.png')  no-repeat center center fixed;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+ background-size: 100% auto;
 }
 
 
