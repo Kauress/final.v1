@@ -32,8 +32,9 @@ border-image-source: url(../img/paper.jpg);
 }
 
 #first-section{
-  width: 100%;
+  width: auto;
   height: 500px;
+  margin:  0 auto;
   border: 1px solid black;
  
 }
